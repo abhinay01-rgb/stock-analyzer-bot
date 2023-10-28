@@ -13,11 +13,11 @@ import warnings
 import os
 warnings.filterwarnings("ignore")
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 
 llm=OpenAI(temperature=0,
-           model_name="gpt-3.5-turbo-16k-0613")
+           model_name="gpt-4")
 
 
 # Fetch stock data from Yahoo Finance
