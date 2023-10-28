@@ -13,7 +13,7 @@ import warnings
 import os
 warnings.filterwarnings("ignore")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = openai
 
 
 llm=OpenAI(temperature=0,
