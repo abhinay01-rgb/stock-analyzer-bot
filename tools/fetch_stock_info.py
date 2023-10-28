@@ -17,7 +17,7 @@ os.environ["OPENAI_API_KEY"] = "sk-CULuRtLszZUKvSKJvj53T3BlbkFJSjDAbg9EeTPMKF0M3
 
 
 llm=OpenAI(temperature=0,
-           model_name="gpt-3.5-turbo-16k-0613")
+           model_name="gpt-4")
 
 
 # Fetch stock data from Yahoo Finance
