@@ -3,7 +3,14 @@ import tools
 from tools.fetch_stock_info import Anazlyze_stock
 import streamlit as st
 from PIL import Image
+st.write(
+"<style>.st-emotion-cache-1v0mbdj.e115fcil1 {
+    max-width: 200px;
+    display: flex;
+}</style>"
 
+    
+)
 image = Image.open('logo.jpg')
 new_image = image.resize((600, 400))
 st.image(image, caption='logo ai')
