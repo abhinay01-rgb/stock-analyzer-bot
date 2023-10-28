@@ -5,10 +5,10 @@ import streamlit as st
 from PIL import Image
 
 image = Image.open('logo.jpg')
-
+new_image = image.resize((600, 400))
 st.image(image, caption='logo ai')
 st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
-st.write("This bot scraps and gathers real time stock realted information and analyzes it using LLM")
+st.write("Bot scraps and gathers real time stock realted information and analyzes it using Large Language Model - LLM")
 
 query = st.text_input('Input your investment related query:') 
 
