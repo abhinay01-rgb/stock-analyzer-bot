@@ -13,7 +13,7 @@ st.write('''<style>
     max-width: 100px;
     display: flex;
 } </style>''', unsafe_allow_html=True)
-    image = Image.open('logo.jpeg')
+    image = Image.open('logo1.jpeg')
     new_image = image.resize((400, 200))
     st.image(image, caption='')
     st.header('', divider='rainbow')
