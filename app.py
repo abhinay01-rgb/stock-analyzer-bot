@@ -14,7 +14,7 @@ st.write('''<style>
 } </style>''', unsafe_allow_html=True)
 image = Image.open('photo1.jpeg')
 new_image = image.resize((400, 200))
-st.image(image, caption='logo ai')
+st.image(image)
 st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
 st.write("Bot scraps and gathers real time stock realted information and analyzes it using Large Language Model - LLM")
 
