@@ -17,14 +17,14 @@ st.write('''<style>
     new_image = image.resize((400, 200))
     st.image(image, caption='')
     st.header('', divider='rainbow')
-st.write('''<style>
-"<style>.st-emotion-cache-1v0mbdj.e115fcil1 {
-    max-width: 200px;
-    display: flex;
-} </style>''', unsafe_allow_html=True)
-image = Image.open('logo1.jpg')
-new_image = image.resize((400, 200))
-st.image(image, caption='logo ai')
+#st.write('''<style>
+#"<style>.st-emotion-cache-1v0mbdj.e115fcil1 {
+ #   max-width: 200px;
+  #  display: flex;
+#} </style>''', unsafe_allow_html=True)
+#image = Image.open('logo1.jpg')
+#new_image = image.resize((400, 200))
+#st.image(image, caption='logo ai')
 st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
 st.write("Bot scraps and gathers real time stock realted information and analyzes it using Large Language Model - LLM")
 
