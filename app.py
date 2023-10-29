@@ -18,8 +18,7 @@ image = Image.open('photo1.jpeg')
 new_image = image.resize((400, 200))
 st.image(image)
 st.header('', divider='rainbow')
-st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
-st.write("Bot scraps and gathers real time stock realted information and analyzes it using Large Language Model - LLM")
+
 
 query = st.text_input('Input your investment related query:') 
 
