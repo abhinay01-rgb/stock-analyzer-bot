@@ -7,8 +7,8 @@ from PIL import Image
 
 
 st.title('WebWisdom :blue[Bot] ')
-    st.header('Powered :blue[By]',)
-    st.write('''<style>
+st.header('Powered :blue[By]',)
+st.write('''<style>
 "<style>.st-emotion-cache-1v0mbdj.e115fcil1 {
     max-width: 100px;
     display: flex;
