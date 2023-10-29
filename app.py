@@ -12,7 +12,7 @@ st.write('''<style>
     max-width: 200px;
     display: flex;
 } </style>''', unsafe_allow_html=True)
-image = Image.open('logo1.jpg')
+image = Image.open('logo.jpg')
 new_image = image.resize((400, 200))
 st.image(image, caption='logo ai')
 st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
