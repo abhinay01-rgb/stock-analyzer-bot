@@ -7,6 +7,8 @@ from PIL import Image
 
 
 
+st.title('WebWisdom :blue[Bot] ')
+st.header('Powered :blue[By]',)
 st.write('''<style>
 "<style>.st-emotion-cache-1v0mbdj.e115fcil1 {
     max-width: 200px;
@@ -15,6 +17,7 @@ st.write('''<style>
 image = Image.open('photo1.jpeg')
 new_image = image.resize((400, 200))
 st.image(image)
+st.header('', divider='rainbow')
 st.title("Stock Analysis bot by iHUB and HCI Foundation IIT MANDI")
 st.write("Bot scraps and gathers real time stock realted information and analyzes it using Large Language Model - LLM")
 
